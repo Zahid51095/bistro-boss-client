@@ -1,17 +1,17 @@
-const Navbar = () => {
-    const navOptions = <>
+import { Link } from "react-router-dom";
 
-            <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-    
-    </>
+const Navbar = () => {
+    const navOptions = (
+      <>
+        <li>
+         <Link to="/">Home</Link>
+        </li>
+        <li>
+         <Link to="/menu">Our Menu</Link>
+        </li>
+       
+      </>
+    );
   return (
     <>
       <div className="navbar fixed z-10 bg-opacity-30 max-w-screen-xl  bg-black text-white">
