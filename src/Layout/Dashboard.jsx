@@ -29,9 +29,9 @@ const Dashboard = () => {
                     <>
                     <li><NavLink to="/dashboard/cart"><FaShoppingCart></FaShoppingCart> My Cart {cart.length}</NavLink></li>
                     <li><NavLink to="/dashboard/userHome"><FaHome></FaHome> User Home</NavLink></li>
-                    <li><NavLink to="/dashboard/reservation"><FaCalendar></FaCalendar> Reservation</NavLink></li>
+                    <li><NavLink to="/dashboard/history"><FaCalendar></FaCalendar> History</NavLink></li>
                     <li><NavLink to="/dashboard/review"><FaCalendar></FaCalendar> Add a Review</NavLink></li>
-                    <li><NavLink to="/dashboard/bookings"><FaList></FaList> My Bookings</NavLink></li>
+                    <li><NavLink to="/dashboard/paymentHistory"><FaList></FaList> Payment Real History</NavLink></li>
 
                     
                     </>
